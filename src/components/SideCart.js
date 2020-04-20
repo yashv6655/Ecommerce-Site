@@ -41,6 +41,12 @@ export default function SideCart() {
               <Link to="/cart" className="main-link">
                 Cart
               </Link>
+              <p
+                style={{ marginTop: "2rem", color: "var(--mainBlack)" }}
+                className="text-title"
+              >
+                Click Anywhere To Close
+              </p>
             </div>
           </CartWrapper>
         );
