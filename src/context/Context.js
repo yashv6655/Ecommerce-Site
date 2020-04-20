@@ -263,10 +263,10 @@ class ProductProvider extends Component {
     //Price Filtering
     tempProducts = tempProducts.filter((item) => item.price <= parseInt(price));
 
-    //Shipping Filtering
-    if (shipping) {
-      tempProducts = tempProducts.filter((item) => item.freeShipping === true);
-    }
+    // //Shipping Filtering
+    // if (shipping) {
+    //   tempProducts = tempProducts.filter((item) => item.freeShipping === true);
+    // }
 
     //Search Filtering
     if (search.length > 0) {

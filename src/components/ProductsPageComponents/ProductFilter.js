@@ -83,7 +83,7 @@ export default function ProductFilter() {
                 </div>
                 {/* End of Price Range */}
                 {/* Shipping */}
-                <div>
+                {/* <div>
                   <label htmlFor="shipping" className="mx-2">
                     Free Shipping
                   </label>
@@ -94,7 +94,7 @@ export default function ProductFilter() {
                     onChange={handleChange}
                     checked={shipping && true}
                   />
-                </div>
+                </div> */}
                 {/* End of Shipping */}
               </FilterWrapper>
             </div>
