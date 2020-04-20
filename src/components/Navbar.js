@@ -2,7 +2,7 @@ import React from "react";
 import { FaBars, FaCartPlus } from "react-icons/fa";
 import styled from "styled-components";
 import { ProductConsumer } from "../context/Context";
-import logo from "../images/logo.svg";
+import logo from "../images/SimpleBuys.png";
 
 export default function Navbar() {
   return (
@@ -13,7 +13,7 @@ export default function Navbar() {
           <NavWrapper>
             <div className="nav-center">
               <FaBars className="nav-icon" onClick={handleSidebar} />
-              <img src={logo} alt="Company" />
+              <img height="130" src={logo} alt="Company" />
               <div className="nav-cart">
                 <FaCartPlus className="nav-icon" onClick={handleCart} />
                 <div className="cart-items">{cartItems}</div>
