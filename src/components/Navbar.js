@@ -1,6 +1,5 @@
 import React from "react";
 import { FaBars, FaCartPlus } from "react-icons/fa";
-import FA from "react-fontawesome";
 import styled from "styled-components";
 import { ProductConsumer } from "../context/Context";
 import logo from "../images/logo.svg";
