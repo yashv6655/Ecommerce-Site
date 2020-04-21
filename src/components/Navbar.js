@@ -2,7 +2,7 @@ import React from "react";
 import { FaBars, FaCartPlus } from "react-icons/fa";
 import styled from "styled-components";
 import { ProductConsumer } from "../context/Context";
-import logo from "../images/logo.svg";
+import logo from "../images/SimpleBuys1.png";
 
 export default function Navbar() {
   return (
@@ -20,7 +20,7 @@ export default function Navbar() {
               >
                 Menu
               </button>
-              <img src={logo} alt="Company" />
+              <img height="115" width="110" src={logo} alt="Company" />
               <div className="nav-cart">
                 {/* <FaCartPlus
                   style={{ background: "var(--primaryColor)" }}
