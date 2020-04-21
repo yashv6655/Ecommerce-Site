@@ -14,13 +14,13 @@ export default function SideCart() {
               {cart.map((item) => {
                 return (
                   <li key={item.id} className="cart-item mb-4">
-                    <img
+                    {/* <img
                       height="60"
                       width="60"
                       src={`../${item.image}`}
                       alt="Snip"
-                    />
-                    {/* <img width="50" src={item.image} alt="Item" /> */}
+                    /> */}
+                    <img width="50" src={item.image} alt="Item" />
                     <div className="mt-3">
                       <h6 className="text-uppercase">{item.title}</h6>
                       <h6 className="text-title text-capitalize">

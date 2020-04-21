@@ -30,7 +30,7 @@ export default function SingleProductPage() {
                 <div className="row">
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     {/* For contentful, replace src with {image} */}
-                    <img src={`../${image}`} alt="Snip" />
+                    <img src={image} alt="Snip" />
                   </div>
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     <h5 className="text-title mb-4">Model: {title}</h5>
