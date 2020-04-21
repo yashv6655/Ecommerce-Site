@@ -12,10 +12,24 @@ export default function Navbar() {
         return (
           <NavWrapper>
             <div className="nav-center">
-              <FaBars className="nav-icon" onClick={handleSidebar} />
+              {/* <FaBars className="nav-icon" onClick={handleSidebar} /> */}
+              <button
+                type="button"
+                className="btn-info"
+                onClick={handleSidebar}
+              >
+                Menu
+              </button>
               <img src={logo} alt="Company" />
               <div className="nav-cart">
-                <FaCartPlus className="nav-icon" onClick={handleCart} />
+                {/* <FaCartPlus
+                  style={{ background: "var(--primaryColor)" }}
+                  className="nav-icon"
+                  onClick={handleCart}
+                /> */}
+                <button type="button" className="btn-info" onClick={handleCart}>
+                  Cart
+                </button>
                 <div className="cart-items">{cartItems}</div>
               </div>
             </div>
